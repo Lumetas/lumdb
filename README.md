@@ -24,5 +24,6 @@
 
 Изменение записи: password=password & db=db_name & table=table_name & edit=id & data=string
 
+Просмотр списка таблиц в базе: password=password & db=db_name & show_tables=1
 
-
+Просмотр списка баз данных: password=password & show_databases=1
