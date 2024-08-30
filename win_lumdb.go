@@ -13,7 +13,7 @@ import (
 
 const app_path string = "C:\\lumdb\\"
 const path_sepirator string = "\\"
-const port string = ":80"
+const port string = ":8234"
 
 func path_exist(path string) bool {
 	if _, err := os.Stat(path); err == nil {
