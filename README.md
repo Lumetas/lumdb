@@ -27,3 +27,9 @@
 Просмотр списка таблиц в базе: password=password & db=db_name & show_tables=1
 
 Просмотр списка баз данных: password=password & show_databases=1
+
+
+### Файлы
+`lumdb.go` по идее кроссплатформенный файл, который должен работать в любой ОС.(проверено в windows 10 и ubuntu 20.04LTS)
+
+`win)lumdb.go` Версия только для виндовс
